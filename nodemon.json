@@ -1,0 +1,11 @@
+{
+    "watch": [
+      "_config.yml",
+      "_config.butterfly.yml",
+      "themes/"
+    ],
+    "ignore": [
+      "public",
+      "node_modules"
+    ]
+  }
