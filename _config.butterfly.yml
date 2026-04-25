@@ -56,14 +56,15 @@ social:
 favicon: /img/favicon.png
 
 avatar:
-  img: /img/butterfly-icon.png
+  img: /img/tx.png
   effect: false
 
 # Disable all banner images
 disable_top_img: false
 
 # If the banner of page not setting, it will show the default_top_img
-default_top_img: 'linear-gradient(20deg, #0062be, #925696, #cc426e, #fb0347)'
+# default_top_img: 'linear-gradient(20deg, #0062be, #925696, #cc426e, #fb0347)'
+default_top_img: \img\2.png
 
 # The banner image of index page
 index_img:
@@ -88,12 +89,13 @@ category_img:
 category_per_img:
 
 # The background image of footer
-footer_img: false
+footer_img: true
 
 # Website Background
 # Can set it to color, image URL or an array containing colors and/or image URLs
 # If an array is provided, a random background will be selected from the array on each load
-background:
+# background: https://i.loli.net/2019/09/09/5oDRkWVKctx2b6A.png
+background: \img\12.png
 
 cover:
   # Disable the cover or not
@@ -887,7 +889,7 @@ fireworks:
 
 # Mouse click effects: Heart symbol
 click_heart:
-  enable: false
+  enable: true
   mobile: false
 
 # Mouse click effects: words
@@ -1094,7 +1096,7 @@ CDN:
     # canvas_nest:
     # canvas_ribbon:
     # chartjs:
-    # click_heart:
+    click_heart:
     # clickShowText:
     # disqusjs:
     # disqusjs_css:
@@ -1123,8 +1125,8 @@ CDN:
     # prismjs_js:
     # prismjs_lineNumber_js:
     # pjax:
-    # sharejs:
-    # sharejs_css:
+    sharejs:
+    sharejs_css:
     # snackbar:
     # snackbar_css:
     # translate:
