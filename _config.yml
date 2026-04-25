@@ -105,3 +105,10 @@ deploy:
   type: git
   repository: git@github.com:wonderfulCoder1/wonderfulCoder1.github.io.git
   branch: main
+
+# Local search index
+search:
+  path: search.xml
+  field: post
+  format: html
+  content: true

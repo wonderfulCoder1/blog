@@ -64,7 +64,7 @@ disable_top_img: false
 
 # If the banner of page not setting, it will show the default_top_img
 # default_top_img: 'linear-gradient(20deg, #0062be, #925696, #cc426e, #fb0347)'
-default_top_img: \img\2.png
+default_top_img: /img/2.png
 
 # The banner image of index page
 index_img:
@@ -95,7 +95,7 @@ footer_img: true
 # Can set it to color, image URL or an array containing colors and/or image URLs
 # If an array is provided, a random background will be selected from the array on each load
 # background: https://i.loli.net/2019/09/09/5oDRkWVKctx2b6A.png
-background: \img\12.png
+background: /img/12.png
 
 cover:
   # Disable the cover or not
@@ -476,8 +476,8 @@ math:
 search:
   # Choose: algolia_search / local_search / docsearch
   # leave it empty if you don't need search
-  use:
-  placeholder:
+  use: local_search
+  placeholder: 请输入关键词
 
   # Algolia Search
   algolia_search:
