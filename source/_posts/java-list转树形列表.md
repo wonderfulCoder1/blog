@@ -1,7 +1,12 @@
 ---
 title: java list转树形列表
 date: 2026-04-25 18:18:42
+categories:
+  - 技术
 tags:
+  - java
+  - 部署
+  - 博客
 ---
 ### 树形接口
 
