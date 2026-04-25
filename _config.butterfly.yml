@@ -18,10 +18,15 @@ nav:
   fixed: false
 
 menu:
-  # Home: / || fas fa-home
-  # List||fas fa-list:
-  #   Music: /music/ || fas fa-music
-  #   Movie: /movies/ || fas fa-video
+  首页: / || fas fa-home
+  文档||fas fa-book:
+    # 文档总览: /docs/ || fas fa-compass
+    Java List 转树: /2026/04/25/java-list转树形列表/ || fas fa-sitemap
+    Hibernate 字段填充: /2026/04/25/hibernate不同实体不同填充创建人/ || fas fa-database
+    Stomp 鉴权实战: /2026/04/25/springboot中通过stomp方式来处理websocket及token权限鉴权相关.18193783/ || fas fa-shield-halved
+  归档: /archives/ || fas fa-box-archive
+  分类: /categories/ || fas fa-folder-open
+  标签: /tags/ || fas fa-tags
 
 # --------------------------------------
 # Code Blocks Settings
